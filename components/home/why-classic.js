@@ -26,7 +26,15 @@ export default class WhyClassic extends Component {
             href={prefixLink('/assets/ETC_Declaration_of_Independence.pdf')}
             target="_blank"
           >
-            Read the Declaration
+            Declaration of Independence
+          </a>
+          <br />
+          <a
+            className="mui-btn mui-btn mui-btn--raised mui-btn--primary"
+            href={prefixLink('/assets/Ethereum_Classic_-_The_New_Original_Innovator.pdf')}
+            target="_blank"
+          >
+            Products and Services Roadmap
           </a>
           <br /><br />
         </Col>
