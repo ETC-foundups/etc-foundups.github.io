@@ -23,10 +23,18 @@ export default class WhyClassic extends Component {
           <div dangerouslySetInnerHTML={{ __html: whyClassic.body }} />
           <a
             className="mui-btn mui-btn mui-btn--raised mui-btn--primary"
+            href={'https://ethereumclassic.github.io/DeclarationOfIndependence/'}
+            target="_blank"
+          >
+            Scrolling Declaration of Independence
+          </a>
+          <br />
+          <a
+            className="mui-btn mui-btn mui-btn--raised mui-btn--primary"
             href={prefixLink('/assets/ETC_Declaration_of_Independence.pdf')}
             target="_blank"
           >
-            Declaration of Independence
+            Declaration of Independence pdf
           </a>
           <br />
           <a
