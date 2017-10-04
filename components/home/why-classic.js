@@ -23,10 +23,10 @@ export default class WhyClassic extends Component {
           <div dangerouslySetInnerHTML={{ __html: whyClassic.body }} />
           <a
             className="mui-btn mui-btn mui-btn--raised mui-btn--primary"
-            href={prefixLink('/blog/2016-07-11-manifesto/')}
+            href={'https://ethereumclassic.github.io/DeclarationOfIndependence/'}
             target="_blank"
           >
-            Crypto-Decentralist Manifesto
+            Scrolling Declaration of Independence
           </a>
           <br />
           <a
@@ -34,7 +34,7 @@ export default class WhyClassic extends Component {
             href={prefixLink('/assets/ETC_Declaration_of_Independence.pdf')}
             target="_blank"
           >
-            Declaration of Independence
+            Declaration of Independence pdf
           </a>
           <br />
           <a
@@ -42,52 +42,7 @@ export default class WhyClassic extends Component {
             href={prefixLink('/assets/Ethereum_Classic_-_The_New_Original_Innovator.pdf')}
             target="_blank"
           >
-            Roadmap
-          </a>
-          <a
-            className="mui-btn mui-btn mui-btn--raised mui-btn--primary"
-            href={'https://www.etcdevteam.com/blog/articles/a-joint-statement-ecip1017.html'}
-            target="_blank"
-          >
-            Monetary Policy
-          </a>
-          <br />
-          <a
-            className="mui-btn mui-btn mui-btn--raised mui-btn--primary"
-            href={'http://etc.today/'}
-            target="_blank"
-          >
-            ETC Today
-          </a>
-          <a
-            className="mui-btn mui-btn mui-btn--raised mui-btn--primary"
-            href={'http://us14.campaign-archive1.com/home/?u=1e7b1574ce5b6f380df5f8510&id=16de44cd42'}
-            target="_blank"
-          >
-            Weekly Update
-          </a>
-          <br />
-          <a
-            className="mui-btn mui-btn mui-btn--raised mui-btn--primary"
-            href={'https://steemit.com/@cseberino'}
-            target="_blank"
-          >
-            ETC Education
-          </a>
-          <a
-            className="mui-btn mui-btn mui-btn--raised mui-btn--primary"
-            href={'https://github.com/ethereumclassic/faq'}
-            target="_blank"
-          >
-            ETC FAQ
-          </a>
-          <br />
-          <a
-            className="mui-btn mui-btn mui-btn--raised mui-btn--primary"
-            href={prefixLink('/assets/etc-thesis.pdf')}
-            target="_blank"
-          >
-            Investment Thesis
+            Products and Services Roadmap
           </a>
           <br /><br />
         </Col>

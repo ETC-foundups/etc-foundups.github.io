@@ -1,17 +1,12 @@
-dist: trusty
-sudo: false
 language: node_js
 node_js:
 - 6
-install:
-  - npm install --no-optional
 script: bash ./deploy.sh
 env:
   global:
-  - ENCRYPTION_LABEL: "a55c8da1c39b"
+  - ENCRYPTION_LABEL: "19cb81709d6d"
   - SOURCE_BRANCH: "source"
   - TARGET_BRANCH: "master"
 cache:
   directories:
-    - node_modules
-filter_secrets: false
+  - node_modules

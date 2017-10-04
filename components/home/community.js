@@ -24,6 +24,7 @@ export default class Community extends Component {
           <Row>
             <Col xs="12">
               <h1>Ethereum Classic Community</h1>
+              <h3>Thousands of individuals united by the promise of immutability</h3>
             </Col>
           </Row>
           <Row className="justified-paragraphs big-icons padded">
@@ -33,14 +34,14 @@ export default class Community extends Component {
                 title="Users"
                 body={users}
                 dropdown={{
-                  title: 'Learn, Discuss, Contribute',
+                  title: 'Learn and Discuss',
                   items: [
-                    { text: 'Join ETC Team Slack', link: 'http://ethereumclassic.herokuapp.com' },
-                    { text: 'Join ETC Subreddit', link: 'http://reddit.com/r/EthereumClassic' },
+                    { text: 'Separate your ETH/ETC', link: 'https://github.com/ethereumclassic/README/issues/3' },
+                    { text: 'Read the Wiki', link: 'http://ethcwiki.org/' },
+                    { text: 'Join the ETC Subreddit', link: 'http://reddit.com/r/EthereumClassic' },
+                    { text: 'Join our Slack Channel', link: 'http://ethereumclassic.herokuapp.com' },
                     { text: 'Find local ETC Meetup', link: 'http://www.meetup.com/EthereumClassic' },
-                    { text: 'Read ETC Today', link: 'http://etc.today/' },
-                    { text: 'Contribute to ETC Wiki', link: 'http://ethcwiki.org/' },
-                    { text: 'Subscribe to ETC Newsletter', link: 'http://us14.campaign-archive1.com/home/?u=1e7b1574ce5b6f380df5f8510&id=16de44cd42' },
+                    { text: 'Visit ETCtalk forums', link: 'https://ethereumclassictalk.org' },
                   ],
                 }}
               />
@@ -53,11 +54,7 @@ export default class Community extends Component {
                 dropdown={{
                   title: 'Write Some Code',
                   items: [
-                    { text: 'Check out Github', link: 'http://github.com/ethereumproject' },
-                    { text: 'Connect on Slack', link: 'http://ethereumclassic.herokuapp.com' },
-                    { text: 'Connect on Gitter', link: 'http://gitter.im/ethereumproject/go-ethereum' },
-                    { text: 'ETCDEV Team', link: 'https://www.etcdevteam.com/' },
-                    { text: 'Grothendieck Team', link: 'https://iohk.io/projects/ethereum-classic/#team' },
+                    { text: 'Volunteer', link: 'https://github.com/ethereumproject/volunteer' },
                   ],
                 }}
               />
@@ -70,14 +67,14 @@ export default class Community extends Component {
                 dropdown={{
                   title: 'Join a Pool',
                   items: [
-                    { link: 'https://etc.fairpool.xyz', text: 'Fairpool' },
-                    { link: 'http://ethc.epool.io', text: 'Epool' },
-                    { link: 'https://etc.minerhub.io', text: 'Minerhub' },
-                    { link: 'https://www.coinotron.com', text: 'Coinotron'},
-                    { link: 'http://www.91pool.com/', text: 'ETC 91pool'},
+                    { link: 'http://etherx.com/pools', text: 'Compare ETC Pools' },
+                    { link: 'https://www.coinotron.com', text: 'Coinotron'},                  
+                    { link: 'http://etc.91pool.com/', text: 'ETC 91pool'},
+                    { link: 'http://ethc.epool.io', text: 'ethc.epool.io' },
                     { link: 'https://minergate.com', text: 'minergate.com' },
                     { link: 'https://etc.suprnova.cc', text: 'etc.suprnova.cc' },
                     { link: 'https://etcpool.io', text: 'etcpool.io' },
+                    { link: 'https://etc.bw.com', text: 'etc.bw.com' },
                     { link: 'https://f2pool.com/help', text: 'f2pool.com/help' },
                     { link: 'http://ethc.coin-miners.info', text: 'ethc.coin-miners.info' },
                     { link: 'http://etc.digger.ws', text: 'etc.digger.ws' },
@@ -88,10 +85,10 @@ export default class Community extends Component {
                     { link: 'http://etc.nanopool.org', text: 'etc.nanopool.org' },
                     { link: 'http://etc.gpuminer.ru', text: 'etc.gpuminer.ru' },
                     { link: 'http://ethclassic.tk', text: 'ethclassic.tk' },
+                    { link: 'http://etc.altpool.net/', text: 'etc.altpool.net' },
                     { link: 'http://etc-pool.com', text: 'etc-pool.com' },
                     { link: 'https://ethereum-classic.miningpoolhub.com/', text: 'ethereum-classic.miningpoolhub.com' },
-                    { link: 'http://etc-poolcrypto.org/', text: 'etc-poolcrypto.org' },
-                    { link: 'http://etherx.com/pools', text: 'Compare ETC Pools' }
+                    { link: 'http://etc-poolcrypto.org/', text: 'etc-poolcrypto.org' }
                   ],
                 }}
               />
@@ -102,17 +99,23 @@ export default class Community extends Component {
                 title="Investors"
                 body={traders}
                 dropdown={{
-                  title: 'Invest and Trade',
+                  title: 'Trade ETC',
                   items: [
-                    { link: 'https://grayscale.co/wp-content/uploads/2017/03/Grayscale-Ethereum-Classic-Investment-Thesis-March-2017.pdf', text: 'Investment Thesis' },
-                    { link: 'https://bitfinex.com', text: 'Bitfinex: ETC/BTC, ETC/USD' },
-                    { link: 'https://www.kraken.com', text: 'Kraken: ETC/ETH, ETC/EUR, ETC/USD, ETC/XBT' },
-                    { link: 'https://poloniex.com/exchange#btc_etc', text: 'Poloniex: ETC/BTC, ETC/ETH, ETC/USDT' },
-                    { link: 'https://trans.chbtc.com/etc', text: 'CHBTC: ETC/CNY' },
-                    { link: 'https://www.bitmex.com/app/trade/ETC24H', text: 'BitMex: ETC futures' },
-                    { link: 'https://shapeshift.io', text: 'Shapeshift' },
-                    { link: 'http://bitsquare.io', text: 'BitSquare' },
+                    { link: 'https://bitfinex.com', text: 'Bitfinex ETC/BTC, ETC/USD ' },
+                    { link: 'https://www.kraken.com', text: 'Kraken ETC/ETH, ETC/EUR, ETC/USD, ETC/XBT' },
+                    { link: 'https://poloniex.com/exchange#btc_etc', text: 'Poloniex  ETC/BTC, ETC/ETH, ETC/USDT' },
+                    { link: 'https://bittrex.com/Market/Index?MarketName=BTC-ETC', text: 'Bittrex' },
+                    { link: 'http://yunbi.com/', text: 'Yunbi' },
+                    { link: 'https://trans.chbtc.com/etc', text: 'CHBTC' },
                     { link: 'https://korbit.co.kr/etc_market', text: 'Korbit' },
+                    { link: 'https://bter.com/trade/etc_btc', text: 'BTER' },
+                    { link: 'https://yobit.net/en/trade/ETC/BTC', text: 'Yobit' },
+                    { link: 'https://coinexchange.io/market/ETC/BTC', text: 'Coinexchange' },
+                    { link: 'https://c-cex.com/?p=etc-btc', text: 'C-CEX' },
+                    { link: 'https://shapeshift.io', text: 'Shapeshift.io' },
+                    { link: 'https://changelly.com/exchange/BTC/ETC/1', text: 'Changelly' },
+                    { link: 'https://www.bitmex.com/app/trade/ETC24H', text: 'BitMex futures contract ETC' },
+                    { link: 'http://bitsquare.io', text: 'BitSquare' },
                   ],
                 }}
               />
@@ -120,16 +123,14 @@ export default class Community extends Component {
           </Row>
           <Row className="padded">
             <Col xs="12">
-              <h4>
+              <h4>Want to Learn More?</h4>
+              <p>
                 Whatever your interest,{' '}
                 <a target="_blank" href="http://ethereumclassic.herokuapp.com/">
-                  join our Slack group
+                  join the slack group
                 </a>
-                , and help us{' '}
-                <a target="_blank" href="https://ethereumclassic.github.io/blog/2016-07-15-start-project/">
-                  continue the original Ethereum vision
-                </a>!
-              </h4>
+                , and help us continue the <b>original</b> Ethereum vision!
+              </p>
             </Col>
           </Row>
         </Container>
